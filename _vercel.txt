@@ -1,0 +1,1 @@
+vc-domain-verify=rummybestapps.com,7423d752b52cdef03cfd
