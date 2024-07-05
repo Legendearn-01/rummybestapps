@@ -265,6 +265,58 @@ function Home() {
   ];
   const newApps = [
     {
+      name: "Spin 101",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹30-₹100",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+      downloadLink:
+        "https://www.spin101agent.com?code=P4CGPUB9C1X&t=1719288040",
+    },
+    {
+      name: "My 777",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹20-₹50",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+      downloadLink: "https://www.my777.app?code=WF1MND819WB&t=1719458392",
+    },
+    {
+      name: "MQM Bet 1",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹15",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+      downloadLink: "https://share.mqmbet1.com?pid=299766900",
+    },
+    {
+      name: "IND Slots Agent",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹15-₹100",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+      downloadLink:
+        "https://www.indslotsagent.com?code=KLLHZ9CTZ4X&t=1719298220",
+    },
+    {
+      name: "Rummy 365",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹11-₹36",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+      downloadLink: "https://www.rummy365.app?code=YAZS3YH3G5V&t=1720036794",
+    },
+    {
       name: "Yono Rummy",
       type: "Rummy",
       downloads: "200k+",
@@ -809,12 +861,6 @@ function Home() {
           Copyright ©️ Rummybestapps.com All Rights Reserved
         </h1>
         <hr />
-        <h1 className="text-white text-xs text-center">
-          Made with love by{" "}
-          <a href="https://www.instagram.com/insane.coder/" target="_blank">
-            @insane.coder
-          </a>
-        </h1>
       </div>
     </div>
   );
