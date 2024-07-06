@@ -15,7 +15,7 @@ function Games() {
       bonus: "₹30-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_2c41065f_nwlfew.jpg",
       downloadLink:
         "https://www.spin101agent.com?code=P4CGPUB9C1X&t=1719288040",
     },
@@ -26,7 +26,7 @@ function Games() {
       bonus: "₹20-₹50",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_81134088_y0gqwl.jpg",
       downloadLink: "https://www.my777.app?code=WF1MND819WB&t=1719458392",
     },
     {
@@ -36,7 +36,7 @@ function Games() {
       bonus: "₹15",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_bb639a69_ea27fh.jpg",
       downloadLink: "https://share.mqmbet1.com?pid=299766900",
     },
     {
@@ -46,7 +46,7 @@ function Games() {
       bonus: "₹15-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.24_1501839f_xhwoxf.jpg",
       downloadLink:
         "https://www.indslotsagent.com?code=KLLHZ9CTZ4X&t=1719298220",
     },
@@ -57,7 +57,7 @@ function Games() {
       bonus: "₹11-₹36",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.24_96c7ec0d_pniudd.jpg",
       downloadLink: "https://www.rummy365.app?code=YAZS3YH3G5V&t=1720036794",
     },
     {
@@ -318,7 +318,7 @@ function Games() {
       {/* top 3 */}
       <div className="w-full h-fit bg-white flex items-center justify-evenly">
         <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-3 rounded-md relative pt-5">
-        <img
+          <img
             className=" h-12 absolute top-[-20px]"
             src="https://rummybonusapp.com/kr/assets/20230731_153804.webp"
             alt=""
@@ -340,7 +340,9 @@ function Games() {
             href={games[1].downloadLink}
             className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
-          <div className=" animate-bounce"><MdDownloadForOffline /></div>
+            <div className=" animate-bounce">
+              <MdDownloadForOffline />
+            </div>
             Download
           </a>
         </div>
@@ -367,12 +369,14 @@ function Games() {
             href={games[0].downloadLink}
             className="px-2 py-[3px] rounded download text-[13px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
-          <div className=" animate-bounce"><MdDownloadForOffline /></div>
+            <div className=" animate-bounce">
+              <MdDownloadForOffline />
+            </div>
             Download
           </a>
         </div>
         <div className="h-fit w-fit bg-zinc-200 flex flex-col items-center p-3 rounded-md relative pt-5">
-        <img
+          <img
             className=" h-12 absolute top-[-20px]"
             src="https://rummybonusapp.com/kr/assets/20230731_154129.webp"
             alt=""
@@ -394,7 +398,9 @@ function Games() {
             href={games[2].downloadLink}
             className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2  flex items-center justify-center gap-1"
           >
-          <div className=" animate-bounce"><MdDownloadForOffline /></div>
+            <div className=" animate-bounce">
+              <MdDownloadForOffline />
+            </div>
             Download
           </a>
         </div>
@@ -420,9 +426,7 @@ function Games() {
                 <div className="h-12 w-12 bg-red-400 rounded-md overflow-hidden">
                   {app.appLogo ? (
                     <img src={app.appLogo} className="w-full" alt="app logo" />
-                  ) : (
-                    null
-                  )}
+                  ) : null}
                 </div>
                 <div className="">
                   <h1 className="text-[14px] font-bold">{app.name}</h1>
@@ -441,7 +445,9 @@ function Games() {
                 href={app.downloadLink}
                 className="px-2 py-[3px] rounded download text-[13px] cursor-pointer  flex items-center justify-center gap-1"
               >
-              <div className=" animate-bounce"><MdDownloadForOffline /></div>
+                <div className=" animate-bounce">
+                  <MdDownloadForOffline />
+                </div>
                 Download
               </a>
             </div>

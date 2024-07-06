@@ -271,7 +271,7 @@ function Home() {
       bonus: "₹30-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_2c41065f_nwlfew.jpg",
       downloadLink:
         "https://www.spin101agent.com?code=P4CGPUB9C1X&t=1719288040",
     },
@@ -282,7 +282,7 @@ function Home() {
       bonus: "₹20-₹50",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_81134088_y0gqwl.jpg",
       downloadLink: "https://www.my777.app?code=WF1MND819WB&t=1719458392",
     },
     {
@@ -292,7 +292,7 @@ function Home() {
       bonus: "₹15",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_bb639a69_ea27fh.jpg",
       downloadLink: "https://share.mqmbet1.com?pid=299766900",
     },
     {
@@ -302,7 +302,7 @@ function Home() {
       bonus: "₹15-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.24_1501839f_xhwoxf.jpg",
       downloadLink:
         "https://www.indslotsagent.com?code=KLLHZ9CTZ4X&t=1719298220",
     },
@@ -313,7 +313,7 @@ function Home() {
       bonus: "₹11-₹36",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.24_96c7ec0d_pniudd.jpg",
       downloadLink: "https://www.rummy365.app?code=YAZS3YH3G5V&t=1720036794",
     },
     {
