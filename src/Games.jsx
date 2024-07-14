@@ -131,7 +131,7 @@ function Games() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
-      downloadLink: "https://yonogamesapp.com/?code=7NYS7DVE&t=1716301257",
+      downloadLink: "https://yonofreecash.com?code=7NYS7DVE&t=1720671810",
     },
     {
       name: "Yono Arcade",
