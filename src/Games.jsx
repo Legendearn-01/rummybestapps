@@ -20,6 +20,26 @@ function Games() {
         "https://www.spin101agent.com?code=P4CGPUB9C1X&t=1719288040",
     },
     {
+      name: "MBM Bet",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "Upto ₹100",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.37_AM_f78xug.jpg",
+      downloadLink: "https://www.mbmagent.com/?code=UPHRWC7UUX5&t=1716300919",
+    },
+    {
+      name: "Yono Game",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹30-₹100",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
+      downloadLink: "https://yonofreecash.com?code=7NYS7DVE&t=1720671810",
+    },
+    {
       name: "My 777",
       type: "Rummy",
       downloads: "200k+",
@@ -72,16 +92,6 @@ function Games() {
       downloadLink: "https://rummy58.com/?code=11773877",
     },
     {
-      name: "MBM Bet",
-      type: "Rummy",
-      downloads: "200k+",
-      bonus: "Upto ₹100",
-      minWithdrawal: "₹100/-",
-      appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.37_AM_f78xug.jpg",
-      downloadLink: "https://www.mbmagent.com/?code=UPHRWC7UUX5&t=1716300919",
-    },
-    {
       name: "567 Slots",
       type: "Rummy",
       downloads: "200k+",
@@ -112,16 +122,6 @@ function Games() {
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
       downloadLink:
         "https://download.yonoapk.com/?code=VIPLW81T4US&t=1716301189",
-    },
-    {
-      name: "Yono Game",
-      type: "Rummy",
-      downloads: "200k+",
-      bonus: "₹30-₹100",
-      minWithdrawal: "₹100/-",
-      appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
-      downloadLink: "https://yonofreecash.com?code=7NYS7DVE&t=1720671810",
     },
     {
       name: "Yono Arcade",
