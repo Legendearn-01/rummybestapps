@@ -20,15 +20,15 @@ function Home() {
 
   const bestForAllGames = [
     {
-      name: "Rummy East",
+      name: "Spin 101",
       type: "Rummy",
       downloads: "200k+",
-      bonus: "₹41",
+      bonus: "₹30-₹100",
       minWithdrawal: "₹100/-",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_lmvele.jpg",
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_2c41065f_nwlfew.jpg",
       downloadLink:
-        "https://rummy888999.com//?from_gameid=14144156&channelCode=2799582",
+        "https://www.spin101agent.com?code=P4CGPUB9C1X&t=1719288040",
     },
     {
       name: "MBM Bet",
@@ -49,6 +49,17 @@ function Home() {
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
       downloadLink: "https://yonofreecash.com?code=7NYS7DVE&t=1720671810",
+    },
+    {
+      name: "Rummy East",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹41",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.36_AM_lmvele.jpg",
+      downloadLink:
+        "https://rummy888999.com//?from_gameid=14144156&channelCode=2799582",
     },
     {
       name: "Rummy Perfect",
@@ -264,17 +275,6 @@ function Home() {
     },
   ];
   const newApps = [
-    {
-      name: "Spin 101",
-      type: "Rummy",
-      downloads: "200k+",
-      bonus: "₹30-₹100",
-      minWithdrawal: "₹100/-",
-      appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_2c41065f_nwlfew.jpg",
-      downloadLink:
-        "https://www.spin101agent.com?code=P4CGPUB9C1X&t=1719288040",
-    },
     {
       name: "My 777",
       type: "Rummy",
