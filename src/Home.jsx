@@ -82,16 +82,6 @@ function Home() {
         "https://www.indslotsagent.com?code=KLLHZ9CTZ4X&t=1719298220",
     },
     {
-      name: "Rummy 365",
-      type: "Rummy",
-      downloads: "200k+",
-      bonus: "₹11-₹36",
-      minWithdrawal: "₹100/-",
-      appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.24_96c7ec0d_pniudd.jpg",
-      downloadLink: "https://www.rummy365.app?code=YAZS3YH3G5V&t=1720036794",
-    },
-    {
       name: "Rummy East",
       type: "Rummy",
       downloads: "200k+",
