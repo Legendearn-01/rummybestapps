@@ -20,6 +20,17 @@ function Home() {
 
   const bestForAllGames = [
     {
+      name: "EN 365",
+      type: "Rummy",
+      downloads: "200k+",
+      bonus: "₹20-₹238",
+      minWithdrawal: "₹100/-",
+      appLogo:
+        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1723097562/Rummy-Logos/gfjsazmgnmggljmxpjyo.jpg",
+      downloadLink:
+        "https://www.en365.in?code=1LNK6S9ZVS9&t=1722077558",
+    },
+    {
       name: "Spin 101",
       type: "Rummy",
       downloads: "200k+",
@@ -48,7 +59,7 @@ function Home() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
-      downloadLink: "https://yonofreecash.com?code=7NYS7DVE&t=1720671810",
+      downloadLink: "https://yonogamesearn.com?code=7NYS7DVE&t=1722978147",
     },
     {
       name: "My 777",
@@ -121,7 +132,7 @@ function Home() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_q4ivz0.jpg",
-      downloadLink: "https://yono777agent.com/?code=F9M6JKBYK2L&t=1716301113",
+      downloadLink: "https://yono777.win?code=F9M6JKBYK2L&t=1723005649",
     },
     {
       name: "Yono Rummy",
@@ -294,16 +305,6 @@ function Home() {
       downloadLink:
         "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
     },
-    {
-      name: "IND Bingo",
-      type: "Rummy",
-      downloads: "200k+",
-      bonus: "₹25-₹75",
-      minWithdrawal: "₹100/-",
-      appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1718973476/Rummy-Logos/WhatsApp_Image_2024-06-21_at_6.05.25_PM_sv73nx.jpg",
-      downloadLink: "https://www.indbingo1.com/?code=R9AVHCV4WDZ&t=1718694200",
-    },
   ];
   const newApps = [
     {
@@ -356,7 +357,7 @@ function Home() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
-      downloadLink: "https://yonofreecash.com?code=7NYS7DVE&t=1720671810",
+      downloadLink: "https://yonogamesearn.com?code=7NYS7DVE&t=1722978147",
     },
     {
       name: "Yono Arcade",
@@ -431,7 +432,7 @@ function Home() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_q4ivz0.jpg",
-      downloadLink: "https://yono777agent.com/?code=F9M6JKBYK2L&t=1716301113",
+      downloadLink: "https://yono777.win?code=F9M6JKBYK2L&t=1723005649",
     },
     {
       name: "Bet 213",
@@ -453,16 +454,6 @@ function Home() {
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1719039475/Rummy-Logos/uirchz3sgsv7ddjo58wy.jpg",
       downloadLink:
         "https://wingobonus.com/#/pages/bonus/bn?invite_code=94375128",
-    },
-    {
-      name: "IND Bingo",
-      type: "Rummy",
-      downloads: "200k+",
-      bonus: "₹25-₹75",
-      minWithdrawal: "₹100/-",
-      appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1718973476/Rummy-Logos/WhatsApp_Image_2024-06-21_at_6.05.25_PM_sv73nx.jpg",
-      downloadLink: "https://www.indbingo1.com/?code=R9AVHCV4WDZ&t=1718694200",
     },
   ];
   const teenPatti = [
@@ -614,7 +605,7 @@ function Home() {
             alt=""
           />
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
-            <img src={bestForAllGames[1].appLogo} alt="" />
+            <img src={bestForAllGames[2].appLogo} alt="" />
           </div>
           <img
             className="w-[70px] my-1"
@@ -627,7 +618,7 @@ function Home() {
           </h1>
           <a
             target="_blank"
-            href={bestForAllGames[1].downloadLink}
+            href={bestForAllGames[2].downloadLink}
             className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
             <div className=" animate-bounce">
@@ -644,7 +635,7 @@ function Home() {
             alt=""
           />
           <div className="h-[70px] w-[70px] bg-red-400 rounded-md overflow-hidden">
-            <img src={bestForAllGames[0].appLogo} alt="" />
+            <img src={bestForAllGames[1].appLogo} alt="" />
           </div>
           <img
             className="w-[80px] my-1"
@@ -657,7 +648,7 @@ function Home() {
           </h1>
           <a
             target="_blank"
-            href={bestForAllGames[0].downloadLink}
+            href={bestForAllGames[1].downloadLink}
             className="px-2 py-[3px] rounded download text-[13px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
             <div className=" animate-bounce">
@@ -674,7 +665,7 @@ function Home() {
             alt=""
           />
           <div className="h-16 w-16 bg-red-400 rounded-md overflow-hidden">
-            <img src={bestForAllGames[2].appLogo} alt="" />
+            <img src={bestForAllGames[3].appLogo} alt="" />
           </div>
           <img
             className="w-[70px] my-1"
@@ -687,7 +678,7 @@ function Home() {
           </h1>
           <a
             target="_blank"
-            href={bestForAllGames[2].downloadLink}
+            href={bestForAllGames[3].downloadLink}
             className="px-2 py-[3px] rounded download text-[10px] cursor-pointer mt-2 flex items-center justify-center gap-1"
           >
             <div className=" animate-bounce">

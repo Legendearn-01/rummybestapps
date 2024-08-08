@@ -110,7 +110,7 @@ function Games() {
       minWithdrawal: "₹100/-",
       appLogo:
         "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776157/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_q4ivz0.jpg",
-      downloadLink: "https://yono777agent.com/?code=F9M6JKBYK2L&t=1716301113",
+      downloadLink: "https://yono777.win?code=F9M6JKBYK2L&t=1723005649",
     },
     {
       name: "Yono Rummy",
