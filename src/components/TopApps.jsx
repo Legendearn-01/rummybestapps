@@ -1,9 +1,9 @@
 import { FaCheckCircle } from "react-icons/fa";
 import { MdDownloadForOffline } from "react-icons/md";
-import { useTopAppStore } from "../Store/AppStore.js";
+import { useAppStore } from "../Store/AppStore.js";
 
 const TopApps = () => {
-  const { topApps } = useTopAppStore();
+  const { topApps } = useAppStore();
 
   return (
     <div className="w-full h-fit bg-white flex items-center justify-evenly">
