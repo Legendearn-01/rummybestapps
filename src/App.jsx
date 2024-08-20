@@ -1,15 +1,28 @@
-import React, { useState } from "react";
-import { NavLink, Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
-import Privacy from "./Privacy";
-import Games from "./Games";
+import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
-import Tac from "./Tac";
+import Routing from "./utils/Routing";
+import { useAppStore } from "./Store/AppStore";
+import axios from "axios";
 
 function App() {
   const [show, setShow] = useState(0);
+  const { setAllApps } = useAppStore();
+
+  const getApps = async () => {
+    await axios
+      .get("https://rummy-server-2rqs.onrender.com/get/getApps")
+      .then((res) => {
+        setAllApps(res.data)    
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+  useEffect(() => {
+    getApps();
+  }, []);
+
   return (
     <div className="bg-white h-screen w-full mx-auto relative">
       {/* Header */}
@@ -37,11 +50,7 @@ function App() {
             <h1>RummyBestApps</h1>
           </div>
           <div className="flex items-center gap-2">
-            <a
-              className=""
-              href="https://t.me/AllTypeLoots"
-              target="_blank"
-            >
+            <a className="" href="https://t.me/AllTypeLoots" target="_blank">
               <img
                 className="h-7"
                 src="https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716309568/telegram-rummybonusapp_dpm5vy.png"
@@ -142,14 +151,7 @@ function App() {
         </nav>
       </div>
 
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/games" element={<Games />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/privacy" element={<Privacy />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/tac" element={<Tac />}></Route>
-      </Routes>
+      <Routing />
     </div>
   );
 }
