@@ -11,7 +11,7 @@ function App() {
 
   const getApps = async () => {
     await axios
-      .get("http://localhost:8081/get/getApps")
+      .get("https://rummy-server-2rqs.onrender.com/get/getApps")
       .then((res) => {
         setAllApps(res.data)    
       })
