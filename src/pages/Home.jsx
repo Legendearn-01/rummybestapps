@@ -7,6 +7,7 @@ import TopApps from "../components/TopApps.jsx";
 import Footer from "../components/Footer.jsx";
 import Marquee from "../components/Marquee.jsx";
 import { useAppStore } from "../Store/AppStore.js";
+import axios from "axios";
 
 function Home() {
   const { bestForAllGames, newApps, teenPatti } = useAppStore();
@@ -32,7 +33,16 @@ function Home() {
     }, 500);
   }, [apps]);
 
-  useEffect(() => {}, [apps]);
+  const handleDownload = async () => {
+    await axios
+      .post("http://localhost:8081/stats/downloads")
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   return (
     <div className=" overflow-y-scroll h-[90%]">
@@ -129,6 +139,7 @@ function Home() {
                 </div>
               </div>
               <a
+                onClick={handleDownload}
                 target="_blank"
                 href={app.downloadLink}
                 className="px-2 py-[3px] rounded download text-[13px] cursor-pointer flex items-center justify-center gap-1"
