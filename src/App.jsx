@@ -11,9 +11,18 @@ function App() {
 
   const getApps = async () => {
     await axios
+      .post("https://rummy-server-2rqs.onrender.com/stats/users")
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
+    await axios
       .get("https://rummy-server-2rqs.onrender.com/get/getApps")
       .then((res) => {
-        setAllApps(res.data)    
+        setAllApps(res.data);
       })
       .catch((err) => {
         console.log(err);
