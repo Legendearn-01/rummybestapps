@@ -35,7 +35,7 @@ function Home() {
 
   const handleDownload = async () => {
     await axios
-      .post("http://localhost:8081/stats/downloads")
+      .post("https://rummy-server-2rqs.onrender.com/stats/downloads")
       .then((res) => {
         console.log(res.data);
       })

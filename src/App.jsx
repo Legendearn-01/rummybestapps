@@ -11,7 +11,7 @@ function App() {
 
   const getApps = async () => {
     await axios
-      .post("http://localhost:8081/stats/users")
+      .post("https://rummy-server-2rqs.onrender.com/stats/users")
       .then((res) => {
         console.log(res.data);
       })
