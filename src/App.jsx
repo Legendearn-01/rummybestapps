@@ -4,9 +4,11 @@ import { IoMenu } from "react-icons/io5";
 import Routing from "./utils/Routing";
 import { useAppStore } from "./Store/AppStore";
 import axios from "axios";
+import { SyncLoader } from "react-spinners";
 
 function App() {
   const [show, setShow] = useState(0);
+  const [isLoading, setIsLoading] = useState(0);
   const { setAllApps } = useAppStore();
 
   const getApps = async () => {
@@ -23,6 +25,7 @@ function App() {
       .get("https://rummy-server-2rqs.onrender.com/get/getApps")
       .then((res) => {
         setAllApps(res.data);
+        setIsLoading((prev) => !prev);
       })
       .catch((err) => {
         console.log(err);
@@ -31,6 +34,13 @@ function App() {
   useEffect(() => {
     getApps();
   }, []);
+
+  if (!isLoading)
+    return (
+      <div className="bg-white h-screen w-full mx-auto relative flex items-center justify-center">
+        <SyncLoader size={10} />
+      </div>
+    );
 
   return (
     <div className="bg-white h-screen w-full mx-auto relative">
