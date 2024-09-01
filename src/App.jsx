@@ -25,6 +25,8 @@ function App() {
       .get("https://rummy-server-2rqs.onrender.com/get/getApps")
       .then((res) => {
         setAllApps(res.data);
+        console.log(res.data);
+        
         setIsLoading((prev) => !prev);
       })
       .catch((err) => {
@@ -34,13 +36,6 @@ function App() {
   useEffect(() => {
     getApps();
   }, []);
-
-  if (!isLoading)
-    return (
-      <div className="bg-white h-screen w-full mx-auto relative flex items-center justify-center">
-        <SyncLoader size={10} />
-      </div>
-    );
 
   return (
     <div className="bg-white h-screen w-full mx-auto relative">
