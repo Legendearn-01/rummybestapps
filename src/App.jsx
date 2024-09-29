@@ -13,7 +13,7 @@ function App() {
 
   const getApps = async () => {
     await axios
-      .post("https://rummy-server-2rqs.onrender.com/stats/users")
+      .post("https://rummy-server.vercel.app/stats/users")
       .then((res) => {
         console.log(res.data);
       })
@@ -22,11 +22,11 @@ function App() {
       });
 
     await axios
-      .get("https://rummy-server-2rqs.onrender.com/get/getApps")
+      .get("https://rummy-server.vercel.app/get/getApps")
       .then((res) => {
         setAllApps(res.data);
         console.log(res.data);
-        
+
         setIsLoading((prev) => !prev);
       })
       .catch((err) => {

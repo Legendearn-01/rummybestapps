@@ -35,7 +35,7 @@ function Home() {
 
   const handleDownload = async () => {
     await axios
-      .post("https://rummy-server-2rqs.onrender.com/stats/downloads")
+      .post("https://rummy-server.vercel.app/stats/downloads")
       .then((res) => {
         console.log(res.data);
       })
