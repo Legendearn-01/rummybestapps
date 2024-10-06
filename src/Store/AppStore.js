@@ -28,12 +28,12 @@ export const useAppStore = create((set) => ({
       _id: {
         $oid: "66be5992be6be42a2b11f98b",
       },
-      name: "Spin 101",
+      name: "82 Lottery 💯% Safe",
       ranking: "https://rummybonusapp.com/kr/assets/20230731_154129.webp",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1720283204/Rummy-Logos/WhatsApp_Image_2024-07-06_at_15.52.25_2c41065f_nwlfew.jpg",
+        "https://res.cloudinary.com/dclpiicbz/image/upload/v1727939438/dzx2qsisi650yylvuima.jpg",
       downloadLink:
-        "https://www.spin101agent.com?code=P4CGPUB9C1X&t=1719288040",
+        "https://82lottery5.com/#/register?invitationCode=5511411146",
       __v: 0,
     },
   ],
