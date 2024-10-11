@@ -4,14 +4,30 @@ import { IoMenu } from "react-icons/io5";
 import Routing from "./utils/Routing";
 import { useAppStore } from "./Store/AppStore";
 import axios from "axios";
-import { SyncLoader } from "react-spinners";
 
 function App() {
   const [show, setShow] = useState(0);
+  const [count, setCount] = useState(() => {
+    if (localStorage.getItem("apps")) return false;
+    else return true;
+  });
   const [isLoading, setIsLoading] = useState(0);
   const { setAllApps } = useAppStore();
 
   const getApps = async () => {
+    await axios
+      .get("https://rummy-server.vercel.app/get/getApps")
+      .then((res) => {
+        localStorage.setItem("apps", JSON.stringify(res.data));
+        setAllApps(res.data);
+        console.log(JSON.stringify(res.data));
+        setCount(false);
+        setIsLoading((prev) => !prev);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
     await axios
       .post("https://rummy-server.vercel.app/stats/users")
       .then((res) => {
@@ -20,26 +36,21 @@ function App() {
       .catch((err) => {
         console.log(err);
       });
-
-    await axios
-      .get("https://rummy-server.vercel.app/get/getApps")
-      .then((res) => {
-        setAllApps(res.data);
-        console.log(res.data);
-
-        setIsLoading((prev) => !prev);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
   };
+
   useEffect(() => {
+    const apps = localStorage.getItem("apps");
+    if (apps) setAllApps(JSON.parse(apps));
     getApps();
   }, []);
 
   return (
     <div className="bg-white h-screen w-full mx-auto relative">
       {/* Header */}
+
+      {count && (
+        <div className="w-screen h-screen fixed top-0 left-0 bg-white z-20"></div>
+      )}
 
       <a
         className=" fixed right-0 top-[50%] z-10"
