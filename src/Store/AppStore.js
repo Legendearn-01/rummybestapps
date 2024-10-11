@@ -17,11 +17,11 @@ export const useAppStore = create((set) => ({
       _id: {
         $oid: "66be5992be6be42a2b11f98c",
       },
-      name: "Yono Game",
+      name: "Raja Luck",
       ranking: "https://rummybonusapp.com/kr/assets/20230731_153953.webp",
       appLogo:
-        "https://res.cloudinary.com/dhj9wvmmo/image/upload/v1716776156/Rummy-Logos/WhatsApp_Image_2024-05-26_at_5.54.38_AM_1_kc45bm.jpg",
-      downloadLink: "https://download.yonogames.com/?code=7NYS7DVE",
+        "https://res.cloudinary.com/dclpiicbz/image/upload/v1728237964/IMG_20241006_224649_942_bkm5uh.jpg",
+      downloadLink: "https://rajalucklottery.com/#/register?invitationCode=pbISn48171",
       __v: 0,
     },
     {
