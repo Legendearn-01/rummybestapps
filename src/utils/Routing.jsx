@@ -6,6 +6,8 @@ import About from "../pages/About";
 import Privacy from "../pages/Privacy";
 import Contact from "../pages/Contact";
 import Tac from "../pages/Tac";
+import Blogs from "../pages/Blogs";
+import BlogPage from "../pages/BlogPage";
 
 const Routing = () => {
   return (
@@ -16,6 +18,8 @@ const Routing = () => {
       <Route path="/privacy" element={<Privacy />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
       <Route path="/tac" element={<Tac />}></Route>
+      <Route path="/blogs" element={<Blogs />}></Route>
+      <Route path="/blogs/:id" element={<BlogPage />}></Route>
     </Routes>
   );
 };
