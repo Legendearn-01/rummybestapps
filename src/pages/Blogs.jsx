@@ -18,7 +18,6 @@ function Blogs() {
             className="w-full bg-black text-white p-2 rounded-md shadow-md"
           >
             <h1 className="font-bold text-2xl p-3">{blog.title}</h1>
-            <h1 className="text-center">{blog.description}</h1>
             <div className="p-5">
               <img className="rounded-xl" src={blog.image} alt="" />
             </div>
