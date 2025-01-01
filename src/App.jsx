@@ -173,6 +173,13 @@ function App() {
           >
             Contact
           </NavLink>
+          <div className="h-[70%] w-[4px] bg-black"></div>
+          <NavLink
+            className="hover:bg-zinc-700 hover:text-white h-full w-full flex items-center justify-center"
+            to="/blogs"
+          >
+            Blogs
+          </NavLink>
         </nav>
       </div>
 
