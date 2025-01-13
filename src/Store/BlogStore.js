@@ -50,9 +50,7 @@ Tips for Safe Online Rummy Gaming
 •	Read Reviews: User reviews can provide insights into the app’s reliability.
 •	Understand the Rules: Familiarize yourself with the rules of the game and the app’s policies.
 Conclusion
-Rummy apps have revolutionized how we enjoy this classic card game. Whether you’re a casual player or a competitive one, there’s an app tailored for your needs. Try out the apps mentioned above and elevate your rummy experience. Remember to play responsibly and enjoy the game"
-
-, and seamless gameplay. Here’s a comprehensive guide to the top rummy apps, their key features, and what makes them stand out.",
+Rummy apps have revolutionized how we enjoy this classic card game. Whether you’re a casual player or a competitive one, there’s an app tailored for your needs. Try out the apps mentioned above and elevate your rummy experience. Remember to play responsibly and enjoy the game",
       sub: [
         {
           subHead: "App 1",
